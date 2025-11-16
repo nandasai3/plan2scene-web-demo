@@ -1,0 +1,20 @@
+{
+  "name": "Demo Living Room",
+  "meta": {
+    "source": "Plan2Scene demo",
+    "description": "This is a sample scene.json standing in for a real Plan2Scene output."
+  },
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Living Room",
+      "floorMaterial": "wood_oak",
+      "walls": [
+        {"from": [0, 0], "to": [5, 0]},
+        {"from": [5, 0], "to": [5, 4]},
+        {"from": [5, 4], "to": [0, 4]},
+        {"from": [0, 4], "to": [0, 0]}
+      ]
+    }
+  ]
+}
